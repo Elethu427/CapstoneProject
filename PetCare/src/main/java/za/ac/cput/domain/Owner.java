@@ -1,3 +1,8 @@
+/*
+Owner.java
+Owner class
+Author: Elethu Manikivana (221195521)
+*/
 package za.ac.cput.domain;
 
 public class Owner {

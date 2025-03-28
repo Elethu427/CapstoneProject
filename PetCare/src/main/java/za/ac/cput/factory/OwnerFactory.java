@@ -1,3 +1,8 @@
+/*
+Owner.java
+OwnerFactory class
+Author: Elethu Manikivana (221195521)
+*/
 package za.ac.cput.factory;
 
 import za.ac.cput.domain.Owner;

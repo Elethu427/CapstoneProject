@@ -1,3 +1,8 @@
+/*
+Owner.java
+OwnerRepository class
+Author: Elethu Manikivana (221195521)
+*/
 package za.ac.cput.repository;
 
 import za.ac.cput.domain.Owner;
@@ -43,7 +48,7 @@ public class OwnerRepository  implements IRepository<Owner, String> {
 
     @Override
     public Owner update(Owner pets) {
-        String id = pets.getIndex();
+        String id = String.valueOf(pets.getIndex());
         Owner oldPet = read(id);
         if (oldPet == null)
             return null;
